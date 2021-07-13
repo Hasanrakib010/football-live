@@ -1,0 +1,82 @@
+/* imported Common Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* Header Section Styles */
+.container{
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+    margin-top: 0;
+}
+
+.nav-width{
+    width: 1160px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 67px;
+}
+ul {
+    display: flex;   
+}
+.menu-items {
+    display: flex;
+    margin-left: 156px;
+    margin-top: 42px;
+}
+.menu-items li{
+    margin-right: 36px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.login-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E02C6D;
+    color: white;
+    Padding : 10px 24px 10px 24px;
+    margin-top: 42px;
+    border: none;
+}
+.login-button img{
+    width: 45%;
+}
+.login-button span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.banner-title{
+    width: 485px;
+    height: 230px;
+    margin-bottom: 240px;
+    margin-left: 136px;
+}
+.banner-title h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: white
+}
+.banner-picture{
+    width: 556px;
+    height:438px
+    
+}
+.banner-picture img{
+    width: 100%;
+    margin-right: 140px;
+}
