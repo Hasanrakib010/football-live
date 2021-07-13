@@ -121,3 +121,32 @@ li a{
     color: #6C6C6C;
     margin: 0;
 }
+/* Footer Area  */
+.footer-container{
+    width: 484px;
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 475px;
+    margin-top: 158px;
+    margin-bottom: 63px;
+}
+.footer-logo{
+    width: 484px;
+    height: 110px;
+}
+footer img{
+    width: 100%;
+}
+.social-icons   {
+    width: 170px;
+    height: 32px;
+    margin: 10px;
+}
+.social-icons a img{
+    width: 32px;
+    height:32px;
+    padding-left: 4%;
+}
