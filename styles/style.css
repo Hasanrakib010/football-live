@@ -9,7 +9,7 @@ body{
     width: 1440px;
     height: 677px;
     background-color: #2D25A0;
-    margin-top: 0;
+    margin-top: 0;   
 }
 
 .nav-width{
@@ -83,20 +83,26 @@ li a{
 /*--------------------
  Main Body Design 
  ---------------------- */
+ .body-container{
+     margin-left: 195px;
+     margin-right: 210px;
+     margin-top: 70px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 27px 27px;
+ }
 .player-box{
-    margin-top: 70px;
     width: 330px;
     height: 474px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid greenyellow; */
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
 }
 .player-image img{
     width: 300px;
     height: 256px;
-    margin-top: 4%;
+    margin-top: 5%;
 }
 .player-details h1{
     width: 300px;
@@ -104,11 +110,14 @@ li a{
     font-size: 28px;
     font-weight: 700;
     color: #18191F;
+    margin-top: 1px;
+   
 }
 .player-details p{
     width: 300px;
-    height: 104px;
+    height: 124px;
     font-size: 16px;
     font-weight: 300;
     color: #6C6C6C;
+    margin: 0;
 }
