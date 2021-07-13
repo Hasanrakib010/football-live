@@ -5,7 +5,7 @@ body{
     margin: 0;
 }
 /* Header Section Styles */
-.container{
+.head-container{
     width: 1440px;
     height: 677px;
     background-color: #2D25A0;
@@ -79,4 +79,36 @@ li a{
 .banner-picture img{
     width: 100%;
     margin-right: 140px;
+}
+/*--------------------
+ Main Body Design 
+ ---------------------- */
+.player-box{
+    margin-top: 70px;
+    width: 330px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid greenyellow; */
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+.player-image img{
+    width: 300px;
+    height: 256px;
+    margin-top: 4%;
+}
+.player-details h1{
+    width: 300px;
+    height: 40px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+}
+.player-details p{
+    width: 300px;
+    height: 104px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #6C6C6C;
 }
