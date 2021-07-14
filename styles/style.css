@@ -1,12 +1,16 @@
-/* imported Common Styles */
+/* imported + Common Styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
 
-/* Header Section Styles */
+/* ------------------------
+----Header Section Styles---
+---------------------------- */
 
 .head-container{
     width: 100%;
@@ -108,9 +112,10 @@ body{
 }
 
 
-/*--------------------
- Main Body Design 
- ---------------------- */
+/*------------------------
+ --Body Main part Design-- 
+ ------------------------- */
+
  .main-body-container   {
      display: flex;
      flex-direction: column;
@@ -158,8 +163,11 @@ body{
 }
 #webstory-title a{
     text-decoration: none;
+    background-color: lightsteelblue;
+    border-radius: 10px;
     color: black;
-    margin-left: 2%;
+    margin-left: 5%;
+    padding: 1%;
     font-size: 36px;
     font-weight: 700;
 }
@@ -177,7 +185,6 @@ body{
     height: 474px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
     padding-bottom: 5%;
@@ -231,7 +238,9 @@ body{
 
 
 
-/* Footer Area  */
+/* --------------------------
+------Footer Area Part------
+----------------------------*/
 .footer-container{
     width: 484px;
     height: 213px;
@@ -260,9 +269,11 @@ footer img{
     height:32px;
     padding-left: 4%;
 }
-/* Media Query */
 
-@media only screen and (min-width: 360px) and (max-width: 688px){
+/* ---------------------------
+Media Query for mobile Devices ------------------------------*/
+
+@media only screen and (max-width: 688px){
 
     .head-container{
         width: 360px;
@@ -367,7 +378,6 @@ footer img{
     .social-icons a img{
         width: 10%;
         height: 60%;
-        /* margin-right: 4%; */
         padding-left: 5%;
         margin-top: 3%;
     }
