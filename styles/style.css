@@ -279,10 +279,33 @@ footer img{
         display: flex;
         flex-direction: column;
     }
-    .highlights img{
-        width: 50%;
+    .highlight-title{
+        margin-top: 67px;
+        margin-left: 30%;
+        margin-bottom: 1%;
     }
-    footer {
-        align-items: center;
+    .highlight-title h1{
+        width: 292px;
+        height: 80px;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 15%;
+    }
+    #highlight-font{
+        width: 292px;
+        height: 80px;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 13%;
+    }
+
+    .highlight-button a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .highlights img{
+        width: 55%;
+        margin-left: 12%;
     }
 }
