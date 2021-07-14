@@ -9,9 +9,16 @@ body{
 /* Header Section Styles */
 
 .head-container{
-    width: 1349px;
+    width: 100%;
     height: 677px;
     background-color: #2D25A0; 
+}
+.head-container ul li:hover a{
+    background-color: grey;
+}
+.head-container:hover .banner .banner-image img{
+    transform: rotate(90deg);
+    transition: transform 2s ;
 }
 .navigation{
     display: flex;
@@ -37,9 +44,10 @@ body{
 }
 .login-button{
     width: 123px;
-    height: 54px;
+    height: 34px;
     background-color: #E02C6D;
     padding-right: 20px;
+    padding-bottom: 20px;
 
 }
 .login-button ul{
@@ -77,12 +85,15 @@ body{
 .banner-button  {
     width: 168px;
     height: 44px;
-    background-color: #E02C6D;
-    color: #FFFFFF;
+    background-color: #E02C6D;   
     padding: 5px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+}.banner-button a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .fa-arrow-right{
     color:#FFFFFF ;
@@ -111,7 +122,8 @@ body{
      margin-bottom: 165px;
      display: grid;
      grid-template-columns: repeat(3, 1fr);
-     grid-gap: 27px 27px;
+     justify-content: center;
+     grid-gap: 27px;
  }
 .player-box{
     width: 330px;
@@ -168,10 +180,14 @@ body{
     width: 168px;
     height: 44px;
     background-color: #E02C6D;
-    color: #FFFFFF;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.highlight-button a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .highlight-image{
     width: 600px;
